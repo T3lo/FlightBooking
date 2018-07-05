@@ -54,6 +54,7 @@ Name Varchar (32) NOT NULL,
 Age INT NOT NULL,
 Nationality Varchar(16) NOT NULL,
 Contacts INT NOT NULL,
+pass varchar(41),
 CONSTRAINT fk_Contacts FOREIGN KEY (Contacts) REFERENCES
 Contact_Details(CnID)
 );
