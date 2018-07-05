@@ -3,7 +3,8 @@ AcID INT Primary Key,
 AcNumber Varchar(32) NOT NULL,
 Capacity INT NOT NULL,
 MfdBy Varchar(128) NOT NULL,
-MfdOn Datetime NOT NULL
+MfdOn Datetime NOT NULL,
+Airline Varchar(15) NOT NULL
 );
 CREATE TABLE Route(
 RtID INT,
@@ -28,6 +29,7 @@ Departure DATETIME,
 Arrival DATETIME,
 AirCraft INT,
 NetFare INT,
+Remaining int(11),
 PRIMARY KEY (FlID),
 CONSTRAINT fk_AirCraft FOREIGN KEY (AirCraft) REFERENCES
 AirCrafts(AcID),
