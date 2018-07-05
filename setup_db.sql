@@ -30,7 +30,7 @@ Arrival TIME,
 AirCraft INT,
 NetFare INT,
 Remaining int(11),
-PRIMARY KEY (FlID),
+PRIMARY KEY (FIID),
 CONSTRAINT fk_AirCraft FOREIGN KEY (AirCraft) REFERENCES
 AirCrafts(AcID),
 CONSTRAINT fk_NetFare FOREIGN KEY (NetFare) REFERENCES
@@ -69,11 +69,8 @@ Charges INT,
 Number int(1),
 CONSTRAINT fk_Passenger FOREIGN KEY (Passenger) REFERENCES
 Passengers(PsID),
-CONSTRAINT fk_Flight FOREIGN KEY (Flight) REFERENCES
-Flight_Schedule(FlID),
+CONSTRAINT fk_Flight FOREIGN KEY (FlightID) REFERENCES
+Flight_Schedule(FIID),
 CONSTRAINT fk_Charges FOREIGN KEY (Charges) REFERENCES
 Charges(ChID)
 );
-
-
-
