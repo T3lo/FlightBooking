@@ -31,3 +31,4 @@ insert into Route values (18,'Chennai','Delhi','MMA-DEL');
 insert into Route values (19,'Chennai','Bangalore','MMA-BLR');
 insert into Route values (20,'Chennai','Mumbai','MMA-BOM');
 
+insert into AirFare values (1,1,2999), (2,2,2999), (3,3,2999), (4,4,2999), (5,5,2999), (6,6,2999), (7,7,2999), (8,8,2999), (9,9,2999), (10,10,2999), (11,11,2999), (12,12,2999), (13,13,2999), (14,14,2999), (15,15,2999), (16,16,2999), (17,17,2999), (18,18,2999), (19,19,2999), (20,20,2999);
