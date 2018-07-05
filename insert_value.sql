@@ -1,0 +1,33 @@
+insert into AirCrafts values (1,'SP-111A',100,'Alenia Aeronotica',NOW(),'Spicejet');
+insert into AirCrafts values (2,'SP-112A',100,'Alenia Aeronotica',NOW(),'Spicejet');
+insert into AirCrafts values (3,'IN-111A',100,'Alenia Aeronotica',NOW(),'Indigo');
+insert into AirCrafts values (4,'IN-112A',100,'Alenia Aeronotica',NOW(),'Indigo');
+insert into AirCrafts values (5,'AI-113A',100,'Alenia Aeronotica',NOW(),'Indigo');
+insert into AirCrafts values (6,'AI-113A',100,'Alenia Aeronotica',NOW(),'Spicejet');
+insert into AirCrafts values (7,'AI-111A',100,'Alenia Aeronotica',NOW(),'Air India');
+insert into AirCrafts values (8,'AI-112A',100,'Alenia Aeronotica',NOW(),'Air India');
+insert into AirCrafts values (9,'AI-113A',100,'Alenia Aeronotica',NOW(),'Air India');
+insert into AirCrafts values (10,'AI-114A',100,'Alenia Aeronotica',NOW(),'Air India');
+insert into AirCrafts values (11,'AI-115A',100,'Alenia Aeronotica',NOW(),'Air India');
+
+insert into Route values (1,'Kolkata','Chennai','CCU-MMA');
+insert into Route values (2,'Kolkata','Delhi','CCU-DEL');
+insert into Route values (3,'Kolkata','Bangalore','CCU-BLR');
+insert into Route values (4,'Kolkata','Mumbai','CCU-BOM');
+insert into Route values (5,'Delhi','Chennai','DEL-MMA');
+insert into Route values (6,'Delhi','Kolkata','DEL-CCU');
+insert into Route values (7,'Delhi','Bangalore','DEL-BLR');
+insert into Route values (8,'Delhi','Mumbai','DEL-BOM');
+insert into Route values (9,'Mumbai','Chennai','BOM-MMA');
+insert into Route values (10,'Mumbai','Delhi','BOM-DEL');
+insert into Route values (11,'Mumbai','Bangalore','BOM-BLR');
+insert into Route values (12,'Mumbai','Kolkata','BOM-CCU');
+insert into Route values (13,'Bangalore','Chennai','BLR-MMA');
+insert into Route values (14,'Bangalore','Delhi','BLR-DEL');
+insert into Route values (15,'Bangalore','Bangalore','BLR-CCU');
+insert into Route values (16,'Bangalore','Mumbai','BLR-BOM');
+insert into Route values (17,'Chennai','Kolkata','MMA-CCU');
+insert into Route values (18,'Chennai','Delhi','MMA-DEL');
+insert into Route values (19,'Chennai','Bangalore','MMA-BLR');
+insert into Route values (20,'Chennai','Mumbai','MMA-BOM');
+
