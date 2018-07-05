@@ -13,6 +13,5 @@ Steps for installation :
     > CREATE USER 'ritwik'@'localhost' IDENTIFIED BY 'ritwik';
     > GRANT ALL PRIVILEGES ON * . * TO 'ritwik'@'localhost';
 7. Then you are good to go.
-    In the index.php page the only available options are currently : Chennai, Kolkata, Delhi, Mumbai
-    And try to give the dates between 10th - 12th july, 2018. The is no script that creates new Flight
-    schedule and delete the old schedules.
+    In the index.php page the only available options are currently : Chennai, Kolkata, Delhi, Mumbai, Bangalore
+    And try to give the date as 10th july, 2018. The script has timings for this day only.
