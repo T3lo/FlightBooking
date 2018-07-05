@@ -42,7 +42,7 @@ Description Varchar (255)
 );
 CREATE TABLE Contact_Details(
 CnID INT PRIMARY KEY,
-Email Varchar (16) NOT NULL,
+Email Varchar (40) NOT NULL,
 Tel Varchar (16),
 Addr Varchar (64)
 );
