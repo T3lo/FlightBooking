@@ -53,3 +53,7 @@ insert into Flight_Schedule values (18,'2018-07-10','15:00:00','17:00:00',7,17,1
 insert into Flight_Schedule values (19,'2018-07-10','14:00:00','16:00:00',8,18,100);
 insert into Flight_Schedule values (20,'2018-07-10','13:00:00','15:00:00',9,19,100);
 insert into Flight_Schedule values (6,'2018-07-10','12:00:00','14:00:00',10,20,100);
+
+insert into Contact_Details values (2,'rit97bha@gmail.com','9840291060','Addr1');
+insert into Passengers values (1,'Ritwik Bhattacharya',21,'Indian',1,SHA1('ritwik'));
+
