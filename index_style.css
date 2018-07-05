@@ -1,0 +1,155 @@
+.{
+    margin: 0;
+    padding : 0;
+}
+#head {
+  height: 110px;
+  width: 100%;
+  background-color: #2c678c;
+  color: #fefefe;
+  display: flex;
+  padding-top: 10px;
+//  position: fixed;
+}
+#head h1 {
+  width: 20%;
+  margin-left: 2%;
+}
+
+#head #right {
+  width: 60%;
+  margin-top: -10px;
+}
+#head #right #up {
+  width: 100%;
+  display: flex;
+  padding-top: 10px;
+  font-family: helvetica;
+  background-color: inherit;
+}
+#head #right #up #login {
+  margin-left: 75%;
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 5px;
+  color: #c8cbd8;
+}
+#head #right #up #login1 {
+  margin-left: 75%;
+  width: 100px;
+  height: 30px;
+  background-color: #3c3853;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 5px;
+  color: #c8cbd8;
+}
+
+#head #right #up #signup {
+  margin-left: 10px;
+  width: 200px;
+  background-color: #c8cbd8;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 5px;
+  color: #3c3853;
+}
+
+#head #right #down ul {
+  list-style-type: none;
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+#head #right #down ul li {
+  width: 20%;
+  font-size: 150%;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+#head ul li:hover {
+  border-bottom: 2px solid white;
+}
+#main {
+  height: 300px;
+  width: 600px;
+  border: 5px dotted;
+  border-radius: 5px;
+  position: relative;
+  top: 100px;
+  margin: auto;
+}
+#m_top{
+    width: 80%;
+    display: flex;
+    border: 0px solid;
+}
+#m_t_left{
+    width:50%;
+    padding-right: 10px;
+    left:0;
+}
+#m_t_right{
+    width:50%;
+    padding-left: 10px;
+    right: 0;
+}
+#middle{
+    border: 0px solid;
+    width: 50%;
+    display: flex;
+}
+#middle #mid_1{
+    width: 30%;
+    padding: 10px;
+}
+#middle #mid_2{
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+}
+#middle #mid_3{
+    width: 30%;
+    padding: 10px;
+}
+#m_bottom{
+    display:flex;
+}
+#main .lg_fld:first-child {
+  margin-top: 20px;
+}
+.lg_fld {
+  height: 45px;
+  width: 200px;
+  margin: auto;
+  margin-top: 15px;
+}
+.lg_fld input {
+  height: 40px;
+  width: 200px;
+  border: 2px solid white;
+//  border-bottom-color: black;
+  background-color: white;
+}
+#m_bottom span{
+
+}
+#m_bottom input{
+    width: 50px;
+}
+.btn {
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+.btn input {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #1d4986;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}

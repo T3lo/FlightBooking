@@ -1,0 +1,95 @@
+#main2 {
+  height: 300px;
+  width: 600px;
+//  border: 5px dotted;
+//  border-radius: 5px;
+  position: relative;
+  top: 50px;
+  margin: auto;
+}
+.box{
+//	height: 100px;
+	border: 5px solid;
+	margin: 10px;
+	padding: 10px;
+}
+#b_top{
+	display: flex;
+//	border: 1px solid;
+}
+#m_t_l{
+	width: 50%;
+	display: flex;
+//	border: 1px solid;
+}
+#m_t_l_logo{
+//	border: 1px solid;
+	width:50px;
+	height: 50px;
+}
+#m_t_l_logo img{
+	width: 50px;
+
+}
+#b_middle{
+	display: flex;
+//	border: 1px solid;	
+	margin: 10px;
+}
+#b_middle1{
+	display: flex;
+//	border: 1px solid;	
+	margin: 10px;
+	margin-bottom: 2px; 
+}
+#b_middle2{
+	display: flex;
+//	border: 1px solid;	
+	margin: 10px;
+	margin-top: 2px;
+}
+
+#mid_l1{
+	margin: 10px;
+	margin-bottom: 2px; 
+}
+
+#mid_m1{
+	margin: 10px;
+	margin-bottom: 2px; 
+}
+
+#mid_r1{
+	margin: 10px;
+	margin-bottom: 2px; 
+}
+
+#mid_l2{
+	margin: 10px;
+	margin-top: 2px;	
+}
+
+#mid_m2{
+	margin: 10px;
+	margin-top: 2px;
+}
+
+#mid_r2{
+	margin: 10px;
+	margin-top: 2px;
+}
+
+
+.btn1 {
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+.btn1 input {
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color: #1d4986;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
