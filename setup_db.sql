@@ -25,8 +25,8 @@ Route(RtID)
 CREATE TABLE Flight_Schedule(
 FlID INT,
 FlightDate DATE,
-Departure DATETIME,
-Arrival DATETIME,
+Departure TIME,
+Arrival TIME,
 AirCraft INT,
 NetFare INT,
 Remaining int(11),
