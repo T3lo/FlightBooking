@@ -45,7 +45,7 @@ Description Varchar (255)
 CREATE TABLE Contact_Details(
 CnID INT PRIMARY KEY,
 Email Varchar (40) NOT NULL,
-Tel Varchar (16),
+Phone Varchar (16),
 Addr Varchar (64)
 );
 CREATE TABLE Passengers(
