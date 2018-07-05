@@ -23,7 +23,7 @@ Route(RtID)
 );
 
 CREATE TABLE Flight_Schedule(
-FlID INT,
+FIID INT,
 FlightDate DATE,
 Departure TIME,
 Arrival TIME,
