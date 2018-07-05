@@ -1,5 +1,5 @@
 # FlightBooking
-It books a flight for the user. One stop flights also available. Get Email Confirmation
+It books a flight for the user. One stop flights also available.
 
 I have used XAMPP for this. My OS is Debian. 
 Steps for installation :
