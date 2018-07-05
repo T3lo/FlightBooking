@@ -63,9 +63,10 @@ TsID INT PRIMARY KEY,
 BookingDate DATETIME,
 DepartureDate DATETIME,
 Passenger INT,
-Flight INT,
+FlightID INT,
 Type INT,
 Charges INT,
+Number int(1),
 CONSTRAINT fk_Passenger FOREIGN KEY (Passenger) REFERENCES
 Passengers(PsID),
 CONSTRAINT fk_Flight FOREIGN KEY (Flight) REFERENCES
